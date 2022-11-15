@@ -19,9 +19,9 @@ import Dialog from "./components/Dialog.vue";
         <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
       </a>
     </div>
+    <p> if you want to learn for code <a href="https://www.baidu.com" target="_blank">click here</a> </p>
 
-    <p>Click on the Tauri, Vite, and Vue logos to learn more.</p>
-
+    <p>目前该功能尚不完善,请在指定路径时注意不要有空格</p>
     <Dialog />
   </div>
 </template>

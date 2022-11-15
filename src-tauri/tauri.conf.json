@@ -68,7 +68,7 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 420,
+        "height": 450,
         "resizable": true,
         "title": "edit_file_name",
         "width": 500

@@ -35,10 +35,27 @@ async function openDir() {
 
 <template>
   <div class="card">
-    <label for="name">指定前缀</label>
+
+    
+
+    <label for="name">指定前缀:</label>
     <input id="name" v-model="prefix" placeholder="please input prefix" maxlength="20" size="20" />
 
     <button type="button" @click="openDir()">打开</button>
   </div>
 
 </template>
+
+
+<style lang="less" scoped>
+  .card {
+    #name {
+      margin: 20px;
+    }
+
+    button {
+      background-color: rgb(7, 170, 108);
+    }
+  }
+
+</style>

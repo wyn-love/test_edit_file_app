@@ -6,32 +6,30 @@ import Dialog from "./components/Dialog.vue";
 
 <template>
   <div class="container">
+  <main>
     <h1>Welcome to Tauri!</h1>
+    <em id="code_url">https://github.com/wyn-love/test_edit_file_app</em>
+    <h2>Used to batch operate files</h2>
+    
 
-    <div class="row">
-      <a href="https://vitejs.dev" target="_blank">
-        <img src="/vite.svg" class="logo vite" alt="Vite logo" />
-      </a>
-      <a href="https://tauri.app" target="_blank">
-        <img src="/tauri.svg" class="logo tauri" alt="Tauri logo" />
-      </a>
-      <a href="https://vuejs.org/" target="_blank">
-        <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-      </a>
-    </div>
-    <p> if you want to learn for code <a href="https://www.baidu.com" target="_blank">click here</a> </p>
-
-    <p>目前该功能尚不完善,请在指定路径时注意不要有空格</p>
+    <p id="tip">Tip:目前该功能尚不完善,请在指定路径时注意不要有空格</p>
     <Dialog />
+  </main>
   </div>
 </template>
 
-<style scoped>
+<style lang="less" scoped>
 .logo.vite:hover {
   filter: drop-shadow(0 0 2em #747bff);
 }
 
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #249b73);
+}
+
+#tip {
+  color: rgb(255, 1, 1);
+  font-size: small;
+  font-weight: bold;
 }
 </style>

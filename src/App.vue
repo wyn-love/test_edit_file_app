@@ -7,7 +7,7 @@ import Dialog from "./components/Dialog.vue";
 <template>
   <div class="container">
   <main>
-    <h1>Welcome to Tauri!</h1>
+    <h1 class="py-5 text-center">Welcome to Tauri!</h1>
     <em id="code_url">https://github.com/wyn-love/test_edit_file_app</em>
     <h2>Used to batch operate files</h2>
     

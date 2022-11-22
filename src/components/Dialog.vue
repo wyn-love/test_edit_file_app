@@ -36,8 +36,6 @@ async function openDir() {
 <template>
   <div class="card">
 
-    
-
     <label for="name">指定前缀:</label>
     <input id="name" v-model="prefix" placeholder="please input prefix" maxlength="20" size="20" />
 
